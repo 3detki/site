@@ -138,19 +138,11 @@ footer {
     .header-desktop {
         display: none;
     }
-
-    main {
-        background: green;
-    }
 }
 
-@media not (max-width: 720px) {
+@media (min-width: 721px) {
     .header-mobile {
         display: none;
-    }
-
-    main {
-        background: red;
     }
 }
 
