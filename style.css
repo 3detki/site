@@ -21,15 +21,17 @@ header {
     color: rgba(18, 42, 132, 1);
     font-size: 32px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .header-phone {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 32px;
-    font-weight: 600;
 }
 .header-phone > a {
     color: rgba(18, 42, 132, 1);
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
 }
