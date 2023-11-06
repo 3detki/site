@@ -13,24 +13,24 @@ body {
 header {
     display: flex;
     justify-content: center;
-    gap: 1.8em;
+    gap: 1.8rem;
     align-items: center;
-    padding: 1em;
+    padding: 1rem;
     background: linear-gradient(180deg, #FFFFFF 0%, #FFE4E3 100%);
 }
 
 .header-logo {
-    height: 7.8em;
+    height: 7.8rem;
 }
 
 .header-nav {
     display: flex;
-    gap: 3em;
+    gap: 3rem;
 }
 
 .header-nav>a {
     color: rgba(18, 42, 132, 1);
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
 }
@@ -47,12 +47,12 @@ header {
 }
 
 .header-phone>img {
-    height: 5em;
+    height: 5rem;
 }
 
 .header-phone>span {
     color: rgba(18, 42, 132, 1);
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -63,24 +63,24 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    gap: 3.8em;
+    gap: 3.8rem;
     align-items: center;
-    padding: 0.6em;
+    padding: 0.6rem;
     background: linear-gradient(180deg, #FFE4E3 0%, #FFFFFF 100%);
 }
 
 .footer-logo {
-    height: 2.5em;
+    height: 2.5rem;
 }
 
 .footer-nav {
     display: flex;
-    gap: 3.8em;
+    gap: 3.8rem;
 }
 
 .footer-nav>a {
     color: rgba(18, 42, 132, 1);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -90,15 +90,15 @@ footer {
 
 .footer-social-media {
     display: flex;
-    gap: 1.5em;
+    gap: 1.5rem;
 }
 
 .footer-social-media>img {
-    height: 3em;
+    height: 3rem;
 }
 
 .footer-phone {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 600;
     color: rgba(18, 42, 132, 1);
     text-decoration: none;
