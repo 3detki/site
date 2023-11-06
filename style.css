@@ -130,7 +130,7 @@ footer {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 719px) {
+@media (max-width: 720px) {
     html {
         font-size: 20px;
     }
@@ -140,25 +140,25 @@ footer {
     }
 }
 
-@media only screen and (min-width: 720px) {
+@media not (min-width: 720px) {
     .header-mobile {
         display: none;
     }
 }
 
-@media only screen and (min-width: 2000px) and (max-width: 2999px) {
+@media (min-width: 2000px) and (max-width: 2999px) {
     html {
         font-size: 24px;
     }
 }
 
-@media only screen and (min-width: 3000px) and (max-width: 3999px) {
+@media (min-width: 3000px) and (max-width: 3999px) {
     html {
         font-size: 32px;
     }
 }
 
-@media only screen and (min-width: 4000px) {
+@media (min-width: 4000px) {
     html {
         font-size: 40px;
     }
