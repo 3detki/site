@@ -35,7 +35,7 @@ header {
 }
 
 .header-nav>a:hover {
-    font-size: 40px;
+    font-weight: 400;
 }
 
 .header-phone {
@@ -55,7 +55,7 @@ header {
     font-weight: 600;
 }
 
-.main {
+main {
     flex: 1 1 auto;
 }
 
