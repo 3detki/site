@@ -35,7 +35,7 @@ header {
 }
 
 .header-nav>a:hover {
-    text-decoration: underline;
+    font-style: italic;
 }
 
 .header-phone {
