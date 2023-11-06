@@ -69,7 +69,7 @@ body {
 }
 
 .header-mobile-right-block {
-    display: block;
+    display: flex;
     flex-direction: column;
     align-items: end;
 }
@@ -157,7 +157,7 @@ footer-desktop {
 
 @media (max-width: 1199px) {
     html {
-        font-size: 32px;
+        font-size: 40px;
     }
 
     .header-desktop {
