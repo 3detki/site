@@ -3,24 +3,6 @@
     padding: 0;
 }
 
-@media only screen and (min-width: 2000px) and (max-width: 2999px) {
-    html {
-        font-size: 24px;
-    }
-}
-
-@media only screen and (min-width: 3000px) and (max-width: 3999px) {
-    html {
-        font-size: 32px;
-    }
-}
-
-@media only screen and (min-width: 4000px) {
-    html {
-        font-size: 40px;
-    }
-}
-
 body {
     font-family: Cormorant Infant;
     display: flex;
@@ -28,7 +10,7 @@ body {
     height: 100%;
 }
 
-header {
+.header-desktop {
     display: flex;
     justify-content: center;
     gap: 1.8rem;
@@ -37,41 +19,67 @@ header {
     background: linear-gradient(180deg, #FFFFFF 0%, #FFE4E3 100%);
 }
 
-.header-logo {
+.header-desktop-logo {
     height: 7.8rem;
 }
 
-.header-nav {
+.header-desktop-nav {
     display: flex;
     gap: 3rem;
 }
 
-.header-nav>a {
+.header-desktop-nav>a {
     color: rgba(18, 42, 132, 1);
     font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
 }
 
-.header-nav>a:hover {
+.header-desktop-nav>a:hover {
     font-style: italic;
 }
 
-.header-phone {
+.header-desktop-phone {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
 }
 
-.header-phone>img {
+.header-desktop-phone>img {
     height: 5rem;
 }
 
-.header-phone>span {
+.header-desktop-phone>span {
     color: rgba(18, 42, 132, 1);
     font-size: 2rem;
     font-weight: 600;
+}
+
+.header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFE4E3 100%);
+}
+
+.header-mobile-logo {
+    height: 2.5rem;
+}
+
+.header-mobile-right-block {
+    display: block;
+    flex-direction: column;
+    align-items: end;
+}
+
+.header-mobile-menu {
+    height: 1rem;
+}
+
+.header-mobile-phone {
+    color: rgba(18, 42, 132, 1);
 }
 
 main {
@@ -120,4 +128,38 @@ footer {
     font-weight: 600;
     color: rgba(18, 42, 132, 1);
     text-decoration: none;
+}
+
+@media only screen and (max-width: 719px) {
+    html {
+        font-size: 20px;
+    }
+
+    .header-desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .header-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2999px) {
+    html {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 3000px) and (max-width: 3999px) {
+    html {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 4000px) {
+    html {
+        font-size: 40px;
+    }
 }
