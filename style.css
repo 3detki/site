@@ -148,6 +148,11 @@ main {
     height: 2rem;
 }
 
+.footer-mobile-nav>a {
+    color: rgba(18, 42, 132, 1);
+    text-decoration: none;
+}
+
 .footer-mobile-social-media {
     display: flex;
     gap: 1rem;
