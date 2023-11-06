@@ -68,12 +68,6 @@ body {
     height: 2.5rem;
 }
 
-.header-mobile-right-block {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-
 .header-mobile-menu {
     height: 1rem;
 }
@@ -152,7 +146,7 @@ main {
 }
 
 .footer-desktop-social-media>img {
-    height: 1.5rem;
+    height: 2rem;
 }
 
 @media (max-width: 1199px) {
