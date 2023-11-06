@@ -13,24 +13,24 @@ body {
 header {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 1.8em;
     align-items: center;
-    padding: 15px;
+    padding: 1em;
     background: linear-gradient(180deg, #FFFFFF 0%, #FFE4E3 100%);
 }
 
 .header-logo {
-    height: 123px;
+    height: 7.8em;
 }
 
 .header-nav {
     display: flex;
-    gap: 50px;
+    gap: 3em;
 }
 
 .header-nav>a {
     color: rgba(18, 42, 132, 1);
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
     text-decoration: none;
 }
@@ -47,12 +47,12 @@ header {
 }
 
 .header-phone>img {
-    height: 80px;
+    height: 5em;
 }
 
 .header-phone>span {
     color: rgba(18, 42, 132, 1);
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 600;
 }
 
@@ -63,24 +63,24 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 3.8em;
     align-items: center;
-    padding: 10px;
+    padding: 0.6em;
     background: linear-gradient(180deg, #FFE4E3 0%, #FFFFFF 100%);
 }
 
 .footer-logo {
-    height: 40px;
+    height: 2.5em;
 }
 
 .footer-nav {
     display: flex;
-    gap: 60px;
+    gap: 3.8em;
 }
 
 .footer-nav>a {
     color: rgba(18, 42, 132, 1);
-    font-size: 24px;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
@@ -90,15 +90,15 @@ footer {
 
 .footer-social-media {
     display: flex;
-    gap: 25px;
+    gap: 1.5em;
 }
 
 .footer-social-media>img {
-    height: 48px;
+    height: 3em;
 }
 
 .footer-phone {
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 600;
     color: rgba(18, 42, 132, 1);
     text-decoration: none;
