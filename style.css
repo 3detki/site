@@ -69,11 +69,12 @@ body {
 }
 
 .header-mobile-menu {
-    height: 1rem;
+    height: 2rem;
 }
 
 .header-mobile-phone {
     color: rgba(18, 42, 132, 1);
+    text-decoration: none;
 }
 
 main {
@@ -145,13 +146,13 @@ main {
     gap: 1rem;
 }
 
-.footer-desktop-social-media>img {
-    height: 2rem;
+.footer-mobile-social-media>img {
+    height: 3rem;
 }
 
 @media (max-width: 1199px) {
     html {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .header-desktop {
