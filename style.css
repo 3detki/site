@@ -12,12 +12,16 @@ header {
     background: linear-gradient(180deg, #FFFFFF 0%, #FFE4E3 100%);
 }
 
+.header-logo {
+    height: 123px;
+}
+
 .header-nav {
     display: flex;
     gap: 50px;
 }
 
-.header-nav > a {
+.header-nav>a {
     color: rgba(18, 42, 132, 1);
     font-size: 32px;
     font-weight: 700;
@@ -29,9 +33,54 @@ header {
     flex-direction: column;
     align-items: center;
 }
-.header-phone > a {
+
+.header-phone>img {
+    height: 80px;
+}
+
+.header-phone>a {
     color: rgba(18, 42, 132, 1);
     text-decoration: none;
     font-size: 32px;
     font-weight: 600;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(180deg, #FFE4E3 0%, #FFFFFF 100%);
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-nav>a {
+    color: rgba(18, 42, 132, 1);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-social-media>img {
+    height: 48px;
+}
+
+.footer-phone {
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(18, 42, 132, 1);
+    text-decoration: none;
 }
