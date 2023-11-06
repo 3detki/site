@@ -69,7 +69,7 @@ body {
 }
 
 .header-mobile-menu {
-    height: 2rem;
+    height: 1rem;
 }
 
 .header-mobile-phone {
@@ -114,7 +114,7 @@ main {
     gap: 1.5rem;
 }
 
-.footer-desktop-social-media>img {
+.footer-desktop-social-media img {
     height: 3rem;
 }
 
@@ -137,16 +137,12 @@ main {
     height: 2rem;
 }
 
-.footer-mobile-logo {
-    height: 2rem;
-}
-
 .footer-mobile-social-media {
     display: flex;
     gap: 1rem;
 }
 
-.footer-mobile-social-media>img {
+.footer-mobile-social-media img {
     height: 3rem;
 }
 
