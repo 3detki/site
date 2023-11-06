@@ -1,6 +1,12 @@
-html,
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Cormorant Infant;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -28,21 +34,29 @@ header {
     text-decoration: none;
 }
 
+.header-nav>a:hover {
+    font-size: 40px;
+}
+
 .header-phone {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
 }
 
 .header-phone>img {
     height: 80px;
 }
 
-.header-phone>a {
+.header-phone>span {
     color: rgba(18, 42, 132, 1);
-    text-decoration: none;
     font-size: 32px;
     font-weight: 600;
+}
+
+.main {
+    flex: 1 1 auto;
 }
 
 footer {
@@ -67,6 +81,10 @@ footer {
     color: rgba(18, 42, 132, 1);
     font-size: 24px;
     text-decoration: none;
+}
+
+.footer-nav>a:hover {
+    text-decoration: underline;
 }
 
 .footer-social-media {
