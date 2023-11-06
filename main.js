@@ -1,0 +1,2 @@
+document.getElementById('header-mobile-nav').addEventListener('click', (event) => {event.target.classList.remove('hidden')});
+document.getElementById('header-mobile-nav-close').addEventListener('click', (event) => {event.target.classList.add('header-mobile-nav-close')})
