@@ -97,6 +97,8 @@ body {
 .header-mobile-nav-close {
     position: absolute;
     height: 0.8rem;
+    right: 0;
+    bottom: 0;
 }
 
 main {
